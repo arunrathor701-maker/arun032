@@ -3,89 +3,157 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Affiliate Wealth Hub - Join Our Team</title>
+    <title>Affiliate Wealth Hub - Join & Earn</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
     <style>
         body { font-family: 'Poppins', sans-serif; }
+        @keyframes pulse-fast {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.4; }
+        }
+        .animate-pulse-fast { animation: pulse-fast 1.2s infinite; }
     </style>
 </head>
-<body class="bg-gray-900 text-white min-h-screen">
-    <div class="max-w-md mx-auto p-6">
-        <header class="text-center mb-8">
-            <h1 class="text-3xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-yellow-600 uppercase">
-                Affiliate Wealth Hub
+<body class="bg-gray-950 text-white min-h-screen">
+
+    <!-- Top Alert Bar -->
+    <div class="bg-gradient-to-r from-red-600 via-orange-500 to-red-600 text-white text-center py-2 px-4 text-xs sm:text-sm font-bold flex items-center justify-center gap-2 shadow-lg">
+        <span class="w-2.5 h-2.5 bg-yellow-300 rounded-full animate-pulse-fast"></span>
+        🚨 सीमित सीटें उपलब्ध! (Only 12 Slots Left For Today) 🚨
+    </div>
+
+    <div class="max-w-md mx-auto p-4 sm:p-6">
+        
+        <!-- Header / Logo -->
+        <header class="text-center my-4">
+            <span class="bg-yellow-500/20 text-yellow-400 border border-yellow-500/40 text-xs px-3 py-1 rounded-full font-semibold uppercase tracking-widest">
+                Official Hiring Partner
+            </span>
+            <h1 class="text-3xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 via-amber-300 to-yellow-500 uppercase mt-2 tracking-wide">
+                AFFILIATE WEALTH HUB
             </h1>
         </header>
 
-        <section class="mb-8">
-            <h2 class="text-2xl font-bold mb-4 text-center">Demat, Savings Accounts & Loan Campaigns चलाएं और हर हफ्ते कमाएं!</h2>
-            <p class="text-gray-400 text-center mb-6">Affiliate Wealth Hub टीम में जुड़िए और 100% गारंटेड कमीशन पाइए।</p>
+        <!-- Earnings Highlight Banner -->
+        <section class="bg-gradient-to-br from-gray-900 to-gray-800 border-2 border-yellow-500/60 rounded-2xl p-5 mb-6 text-center shadow-xl relative overflow-hidden">
+            <div class="absolute -right-8 -top-8 bg-yellow-500/10 w-24 h-24 rounded-full blur-xl"></div>
             
-            <div class="bg-blue-900/50 p-6 rounded-xl border border-blue-700 mb-6 shadow-lg">
-                <h3 class="font-semibold text-lg mb-1 text-center">टीम में शामिल होने के लिए फॉर्म भरें</h3>
-                <p class="text-xs text-gray-300 mb-5 text-center">सबमिट करते ही आप डायरेक्ट WhatsApp पर कनेक्ट हो जाएंगे</p>
-                
-                <form id="whatsappForm" class="space-y-4">
-                    <div>
-                        <label class="block text-sm font-medium mb-1" for="userName">आपका नाम (Full Name) *</label>
-                        <input class="w-full bg-gray-800 border border-gray-700 rounded-lg p-3 text-white focus:outline-none focus:border-green-500" type="text" id="userName" placeholder="अपना पूरा नाम लिखें" required>
-                    </div>
+            <h2 class="text-xl sm:text-2xl font-extrabold text-white leading-tight mb-2">
+                घर बैठे मोबाइल से कमाएं <br>
+                <span class="text-yellow-400 text-2xl sm:text-3xl font-black">₹15,000 - ₹50,000 / महीना</span>
+            </h2>
+            <p class="text-gray-300 text-xs sm:text-sm">
+                Demat, Savings Accounts, Loans & Credit Card Campaigns चलाएं और हर हफ्ते गारंटेड पेआउट पाएं! 💰
+            </p>
+        </section>
 
-                    <div>
-                        <label class="block text-sm font-medium mb-1" for="userProfile">आप क्या करते हैं? (Profile) *</label>
-                        <select class="w-full bg-gray-800 border border-gray-700 rounded-lg p-3 text-white focus:outline-none focus:border-green-500" id="userProfile" required>
-                            <option value="Student">Student</option>
-                            <option value="Loan/DSA Agent">Loan/DSA Agent</option>
-                            <option value="Field Sales Executive">Field Sales Executive</option>
-                            <option value="Team Leader">Team Leader</option>
-                            <option value="Job Seeker - Part time">Job Seeker - Part time</option>
-                            <option value="Other">Other</option>
-                        </select>
-                    </div>
-
-                    <div>
-                        <label class="block text-sm font-medium mb-1" for="userPhone">WhatsApp Number *</label>
-                        <input class="w-full bg-gray-800 border border-gray-700 rounded-lg p-3 text-white focus:outline-none focus:border-green-500" type="tel" id="userPhone" placeholder="अपना WhatsApp नंबर लिखें" required>
-                    </div>
-
-                    <button type="submit" class="w-full bg-green-600 hover:bg-green-700 text-white font-bold py-3.5 rounded-lg flex items-center justify-center transition-colors shadow-md text-base">
-                        💬 CONNECT ON WHATSAPP
-                    </button>
-                </form>
+        <!-- Why Join Us Points -->
+        <section class="grid grid-cols-2 gap-3 mb-6 text-center">
+            <div class="bg-gray-900 border border-gray-800 p-3 rounded-xl">
+                <div class="text-2xl mb-1">⚡</div>
+                <div class="font-bold text-sm text-yellow-400">Instant Approval</div>
+                <div class="text-[11px] text-gray-400">आज ही काम शुरू करें</div>
+            </div>
+            <div class="bg-gray-900 border border-gray-800 p-3 rounded-xl">
+                <div class="text-2xl mb-1">💵</div>
+                <div class="font-bold text-sm text-green-400">Weekly Payout</div>
+                <div class="text-[11px] text-gray-400">सीधा बैंक अकाउंट में</div>
+            </div>
+            <div class="bg-gray-900 border border-gray-800 p-3 rounded-xl">
+                <div class="text-2xl mb-1">🎓</div>
+                <div class="font-bold text-sm text-blue-400">Free Training</div>
+                <div class="text-[11px] text-gray-400">पूरी सपोर्ट और गाइडलाइंस</div>
+            </div>
+            <div class="bg-gray-900 border border-gray-800 p-3 rounded-xl">
+                <div class="text-2xl mb-1">🔥</div>
+                <div class="font-bold text-sm text-red-400">High Commission</div>
+                <div class="text-[11px] text-gray-400">मार्केट में सबसे ज्यादा रेट</div>
             </div>
         </section>
 
-        <footer class="text-center text-gray-500 text-sm">
+        <!-- Form Card -->
+        <div class="bg-gradient-to-b from-blue-950/80 to-gray-900 p-6 rounded-2xl border-2 border-green-500/50 shadow-2xl mb-6 relative">
+            <div class="bg-red-600 text-white text-[11px] font-bold uppercase tracking-wider px-3 py-1 rounded-full absolute -top-3 left-1/2 transform -translate-x-1/2 shadow-md">
+                ⏳ Offer Ends In: <span id="timer">09:54</span> Mins
+            </div>
+
+            <h3 class="font-extrabold text-lg sm:text-xl text-center text-white mt-2 mb-1">
+                टीम में शामिल होने के लिए अभी रजिस्टर करें!
+            </h3>
+            <p class="text-xs text-gray-300 text-center mb-5">
+                फॉर्म भरते ही आपकी डिटेल्स WhatsApp पर हमारे पास आ जाएगी।
+            </p>
+            
+            <form id="whatsappForm" class="space-y-4">
+                <div>
+                    <label class="block text-xs font-semibold text-gray-300 mb-1" for="userName">आपका नाम (Full Name) *</label>
+                    <input class="w-full bg-gray-900/90 border border-gray-700 rounded-xl p-3 text-white text-sm focus:outline-none focus:border-green-500 transition-all placeholder-gray-500" type="text" id="userName" placeholder="उदा. राहुल शर्मा" required>
+                </div>
+
+                <div>
+                    <label class="block text-xs font-semibold text-gray-300 mb-1" for="userProfile">आपकी प्रोफाइल / रोल *</label>
+                    <select class="w-full bg-gray-900/90 border border-gray-700 rounded-xl p-3 text-white text-sm focus:outline-none focus:border-green-500 transition-all" id="userProfile" required>
+                        <option value="Student">Student (छात्र)</option>
+                        <option value="Loan/DSA Agent">Loan / DSA Agent</option>
+                        <option value="Field Sales Executive">Field Sales Executive</option>
+                        <option value="Team Leader">Team Leader</option>
+                        <option value="Job Seeker - Part time">Part Time Job Seeker</option>
+                        <option value="Other">Other (अन्य)</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label class="block text-xs font-semibold text-gray-300 mb-1" for="userPhone">WhatsApp Number *</label>
+                    <input class="w-full bg-gray-900/90 border border-gray-700 rounded-xl p-3 text-white text-sm focus:outline-none focus:border-green-500 transition-all placeholder-gray-500" type="tel" id="userPhone" placeholder="10 अंकों का WhatsApp नंबर" pattern="[0-9]{10}" required>
+                </div>
+
+                <button type="submit" class="w-full bg-gradient-to-r from-green-500 to-emerald-600 hover:from-green-600 hover:to-emerald-700 text-white font-extrabold py-4 rounded-xl flex items-center justify-center gap-2 transition-all shadow-lg text-base transform hover:scale-[1.02]">
+                    <span>💬 JOIN TEAM ON WHATSAPP</span>
+                </button>
+            </form>
+        </div>
+
+        <footer class="text-center text-gray-500 text-xs space-y-1">
+            <p>🔒 100% Safe & Verified Hiring Process</p>
             <p>&copy; 2026 Affiliate Wealth Hub. All rights reserved.</p>
         </footer>
+
     </div>
 
     <script>
+        // Countdown Timer Script
+        let time = 594; // 9 mins 54 secs
+        const timerEl = document.getElementById('timer');
+        setInterval(() => {
+            const minutes = Math.floor(time / 60);
+            let seconds = time % 60;
+            seconds = seconds < 10 ? '0' + seconds : seconds;
+            if (timerEl) timerEl.innerHTML = `${minutes}:${seconds}`;
+            if (time > 0) time--;
+        }, 1000);
+
+        // Form Submit Script
         document.getElementById('whatsappForm').addEventListener('submit', function(event) {
             event.preventDefault();
 
-            // Form values get karna
             const name = document.getElementById('userName').value.trim();
             const profile = document.getElementById('userProfile').value;
             const phone = document.getElementById('userPhone').value.trim();
 
             const whatsappNumber = "9516586381";
 
-            // Professional & Attractive WhatsApp Message
-            const message = `✨ *NEW TEAM JOINING ENQUIRY* ✨\n` +
+            const message = `✨ *NEW TEAM JOINING APPLICATION* ✨\n` +
                             `________________________________\n\n` +
                             `नमस्ते *Affiliate Wealth Hub* टीम! 👋\n` +
-                            `मैं आपकी टीम से जुड़कर *Demat, Savings Accounts, Loans & Credit Card Campaigns* में काम करना चाहता/चाहती हूँ।\n\n` +
-                            `📋 *मेरी डिटेल्स:*\n` +
+                            `मैं आपकी टीम से जुड़कर *Demat, Savings Accounts, Loans & Credit Card Campaigns* में काम करके हर हफ्ते कमाई करना चाहता/चाहती हूँ।\n\n` +
+                            `📋 *कस्टमर विवरण:*\n` +
                             `👤 *नाम:* ${name}\n` +
                             `💼 *प्रोफाइल:* ${profile}\n` +
                             `📞 *व्हाट्सएप नंबर:* ${phone}\n\n` +
-                            `🚀 कृपया मुझे आगे की ऑनबोर्डिंग प्रक्रिया और काम की जानकारी WhatsApp पर साझा करें। धन्यवाद!`;
+                            `🚀 कृपया मुझे जल्द से जल्द ऑनबोर्डिंग प्रक्रिया और काम की लिंक्स भेजें। धन्यवाद!`;
 
-            // WhatsApp URL Direct Redirect
             const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
-
             window.location.href = whatsappUrl;
         });
     </script>
