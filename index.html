@@ -3,150 +3,91 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Affiliate Wealth Hub - Earn Weekly with Demat, Savings & Loan Campaigns</title>
-    <!-- Google Fonts & Tailwind CSS -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <title>Affiliate Wealth Hub - Join Our Team</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
     <style>
         body { font-family: 'Poppins', sans-serif; }
     </style>
 </head>
 <body class="bg-gray-900 text-white min-h-screen">
-
-    <!-- Top Branding & Announcement Bar -->
-    <div class="bg-gradient-to-r from-amber-500 to-yellow-400 text-black text-center font-bold py-2.5 text-sm md:text-base px-3 shadow-md">
-        ⚡ AFFILIATE WEALTH HUB ⚡
-    </div>
-
-    <div class="max-w-md mx-auto px-4 py-6">
-
-        <!-- Header / Logo Area -->
-        <div class="text-center mb-6">
-            <h2 class="text-xl font-extrabold text-amber-400 tracking-wider uppercase">
-                AFFILIATE WEALTH HUB
-            </h2>
-            <p class="text-xs text-gray-400">affiliatewealthhub.online</p>
-        </div>
-
-        <!-- Hero Section -->
-        <div class="text-center my-4">
-            <span class="bg-emerald-500/20 text-emerald-400 text-xs font-bold px-3 py-1.5 rounded-full uppercase tracking-wider border border-emerald-500/40">
-                Loan Agents & Students Special
-            </span>
-            <h1 class="text-2xl md:text-3xl font-extrabold mt-4 leading-tight">
-                Demat, Savings Accounts & Loan Campaigns चलाएं और <span class="text-emerald-400">हर हफ्ते कमाएं!</span>
+    <div class="max-w-md mx-auto p-6">
+        <header class="text-center mb-8">
+            <h1 class="text-3xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-yellow-600 uppercase">
+                Affiliate Wealth Hub
             </h1>
-            <p class="text-gray-300 text-sm mt-3">
-                <span class="text-amber-300 font-semibold">Affiliate Wealth Hub</span> टीम को बिल्कुल फ्री जॉइन करें। बेस्ट पेआउट और 100% गारंटीड वीकली पेमेंट पाएं।
-            </p>
-        </div>
+        </header>
 
-        <!-- Features Box -->
-        <div class="bg-gray-800/80 border border-gray-700 rounded-2xl p-4 my-6 space-y-4 shadow-lg">
-            <div class="flex items-center space-x-3">
-                <div class="bg-emerald-500/10 p-2.5 rounded-xl border border-emerald-500/20 text-emerald-400 text-xl">💸</div>
-                <div>
-                    <h3 class="font-bold text-sm text-white">गारंटीड वीकली पेआउट</h3>
-                    <p class="text-xs text-gray-400">बिना किसी देरी के हर हफ्ते आपका कमीशन आपके अकाउंट में</p>
-                </div>
+        <section class="mb-8">
+            <h2 class="text-2xl font-bold mb-4 text-center">Demat, Savings Accounts & Loan Campaigns चलाएं और हर हफ्ते कमाएं!</h2>
+            <p class="text-gray-400 text-center mb-6">Affiliate Wealth Hub टीम में जुड़िए और 100% गारंटेड कमीशन पाइए।</p>
+            
+            <div class="bg-blue-900/50 p-6 rounded-xl border border-blue-700 mb-6 shadow-lg">
+                <h3 class="font-semibold text-lg mb-1 text-center">टीम में शामिल होने के लिए फॉर्म भरें</h3>
+                <p class="text-xs text-gray-300 mb-5 text-center">सबमिट करते ही आप डायरेक्ट WhatsApp पर कनेक्ट हो जाएंगे</p>
+                
+                <form id="whatsappForm" class="space-y-4">
+                    <div>
+                        <label class="block text-sm font-medium mb-1" for="userName">आपका नाम (Full Name) *</label>
+                        <input class="w-full bg-gray-800 border border-gray-700 rounded-lg p-3 text-white focus:outline-none focus:border-green-500" type="text" id="userName" placeholder="अपना पूरा नाम लिखें" required>
+                    </div>
+
+                    <div>
+                        <label class="block text-sm font-medium mb-1" for="userProfile">आप क्या करते हैं? (Profile) *</label>
+                        <select class="w-full bg-gray-800 border border-gray-700 rounded-lg p-3 text-white focus:outline-none focus:border-green-500" id="userProfile" required>
+                            <option value="Student">Student</option>
+                            <option value="Loan/DSA Agent">Loan/DSA Agent</option>
+                            <option value="Field Sales Executive">Field Sales Executive</option>
+                            <option value="Team Leader">Team Leader</option>
+                            <option value="Job Seeker - Part time">Job Seeker - Part time</option>
+                            <option value="Other">Other</option>
+                        </select>
+                    </div>
+
+                    <div>
+                        <label class="block text-sm font-medium mb-1" for="userPhone">WhatsApp Number *</label>
+                        <input class="w-full bg-gray-800 border border-gray-700 rounded-lg p-3 text-white focus:outline-none focus:border-green-500" type="tel" id="userPhone" placeholder="अपना WhatsApp नंबर लिखें" required>
+                    </div>
+
+                    <button type="submit" class="w-full bg-green-600 hover:bg-green-700 text-white font-bold py-3.5 rounded-lg flex items-center justify-center transition-colors shadow-md text-base">
+                        💬 CONNECT ON WHATSAPP
+                    </button>
+                </form>
             </div>
-            <div class="flex items-center space-x-3">
-                <div class="bg-emerald-500/10 p-2.5 rounded-xl border border-emerald-500/20 text-emerald-400 text-xl">🚀</div>
-                <div>
-                    <h3 class="font-bold text-sm text-white">मार्केट से बेस्ट पेआउट्स</h3>
-                    <p class="text-xs text-gray-400">Demate  कैंपेन पर आपको मिलेगा उच्चतम कमीशन</p>
-                </div>
-            </div>
-            <div class="flex items-center space-x-3">
-                <div class="bg-emerald-500/10 p-2.5 rounded-xl border border-emerald-500/20 text-emerald-400 text-xl">🎓</div>
-                <div>
-                    <h3 class="font-bold text-sm text-white">100% फ्री सपोर्ट & गाइडेंस</h3>
-                    <p class="text-xs text-gray-400">शुरुआत से लेकर कमाई तक पूरी ट्रेनिंग और लिंक्स मिलेंगे</p>
-                </div>
-            </div>
-        </div>
+        </section>
 
-        <!-- Lead Form Section -->
-        <div class="bg-gray-800 border-2 border-emerald-500/60 rounded-2xl p-5 shadow-2xl relative my-6">
-            <h2 class="text-lg font-bold text-center text-emerald-400 mb-1">
-                टीम में शामिल होने के लिए फॉर्म भरें
-            </h2>
-            <p class="text-xs text-gray-400 text-center mb-5">
-                सबमिट करते ही आप डायरेक्ट WhatsApp Business पर कनेक्ट हो जाएंगे
-            </p>
-
-            <form id="leadForm" onsubmit="redirectToWhatsApp(event)" class="space-y-4">
-                <div>
-                    <label class="block text-xs font-semibold text-gray-300 mb-1">आपका नाम (Full Name) *</label>
-                    <input type="text" id="userName" required placeholder="जैसे: अमित शर्मा" 
-                           class="w-full bg-gray-900 border border-gray-700 rounded-xl px-3.5 py-3 text-sm text-white focus:outline-none focus:border-emerald-500">
-                </div>
-
-                <div>
-                    <label class="block text-xs font-semibold text-gray-300 mb-1">आप क्या करते हैं? (Profile) *</label>
-                    <select id="userProfile" required class="w-full bg-gray-900 border border-gray-700 rounded-xl px-3.5 py-3 text-sm text-white focus:outline-none focus:border-emerald-500">
-                        <option value="Student">Student </option>
-                        <option value="Loan/DSA Agent">Loan / DSA Financial Agent</option>
-                        <option value="Job Seeker">Part-Time / Full-Time Seeker</option>
-                        <option value="Other">Other (अन्य)</option>
-                    </select>
-                </div>
-
-                <div>
-                    <label class="block text-xs font-semibold text-gray-300 mb-1">WhatsApp Number *</label>
-                    <input type="tel" id="userPhone" required pattern="[0-9]{10}" placeholder="10-अंकीय मोबाइल नंबर" 
-                           class="w-full bg-gray-900 border border-gray-700 rounded-xl px-3.5 py-3 text-sm text-white focus:outline-none focus:border-emerald-500">
-                </div>
-
-                <button type="submit" 
-                        class="w-full bg-gradient-to-r from-emerald-500 to-green-600 hover:from-emerald-600 hover:to-green-700 text-white font-bold py-3.5 px-4 rounded-xl shadow-lg transition duration-200 transform active:scale-95 flex items-center justify-center space-x-2 text-base">
-                    <span>💬 CONNECT ON WHATSAPP</span>
-                </button>
-            </form>
-        </div>
-
-        <!-- Warning / Disclaimer -->
-        <div class="bg-amber-500/10 border border-amber-500/30 rounded-xl p-3 my-4 text-xs text-amber-200 text-center">
-            ⚠️ <b>ध्यान दें:</b> यह वर्क केवल 18+ आयु के लोगों के लिए है। फ्री ऑनबोर्डिंग और वीकली पेमेंट के लिए तुरंत संपर्क करें।
-        </div>
-
-        <!-- Footer -->
-        <div class="text-center text-gray-500 text-xs mt-6 mb-4">
-            &copy; 2026 Affiliate Wealth Hub (<a href="https://affiliatewealthhub.online" class="underline text-gray-400">affiliatewealthhub.online</a>). All Rights Reserved.
-        </div>
-
+        <footer class="text-center text-gray-500 text-sm">
+            <p>&copy; 2026 Affiliate Wealth Hub. All rights reserved.</p>
+        </footer>
     </div>
 
-    <!-- JavaScript Redirection Code -->
     <script>
-        // -------------------------------------------------------------
-        // Step 1: यहाँ अपना 10-digit AdsVadi WhatsApp Business नंबर डालें।
-        // (शुरू में '91' बिना किसी space या '+' के रखें)
-        // -------------------------------------------------------------
-        const ADSVADI_WHATSAPP_NUMBER = "919516986381"; 
-
-        function redirectToWhatsApp(event) {
+        document.getElementById('whatsappForm').addEventListener('submit', function(event) {
             event.preventDefault();
 
-            // Form Values
+            // Form values get karna
             const name = document.getElementById('userName').value.trim();
             const profile = document.getElementById('userProfile').value;
             const phone = document.getElementById('userPhone').value.trim();
 
-            // WhatsApp Message (Branded with Affiliate Wealth Hub)
-            const message = `Hello *Affiliate Wealth Hub* Team! 🚀%0A%0A` +
-                            `Main aapki team join karke AdsVadi Campaigns (Demat, Savings & Loans) par kaam karna chahta/chahti hu.%0A%0A` +
-                            `👤 *Name:* ${encodeURIComponent(name)}%0A` +
-                            `💼 *Profile:* ${encodeURIComponent(profile)}%0A` +
-                            `📱 *Phone:* ${encodeURIComponent(phone)}%0A%0A` +
-                            `Mujhe onboarding ki jankari aur referral links WhatsApp par share karein.`;
+            const whatsappNumber = "9516586381";
 
-            // WhatsApp Redirection Link
-            const whatsappUrl = `https://wa.me/${9516986381}?text=${message}`;
+            // Professional & Attractive WhatsApp Message
+            const message = `✨ *NEW TEAM JOINING ENQUIRY* ✨\n` +
+                            `________________________________\n\n` +
+                            `नमस्ते *Affiliate Wealth Hub* टीम! 👋\n` +
+                            `मैं आपकी टीम से जुड़कर *Demat, Savings Accounts, Loans & Credit Card Campaigns* में काम करना चाहता/चाहती हूँ।\n\n` +
+                            `📋 *मेरी डिटेल्स:*\n` +
+                            `👤 *नाम:* ${name}\n` +
+                            `💼 *प्रोफाइल:* ${profile}\n` +
+                            `📞 *व्हाट्सएप नंबर:* ${phone}\n\n` +
+                            `🚀 कृपया मुझे आगे की ऑनबोर्डिंग प्रक्रिया और काम की जानकारी WhatsApp पर साझा करें। धन्यवाद!`;
 
-            // Direct Redirect
+            // WhatsApp URL Direct Redirect
+            const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
+
             window.location.href = whatsappUrl;
-        }
+        });
     </script>
 </body>
 </html>
